@@ -6,7 +6,7 @@ import Menu from "./pages/Menu";
 import Pagenotfound from "./pages/Pagenotfound";
 function App() {
   return (
-    <div>
+    <div>  
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
